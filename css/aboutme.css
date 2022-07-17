@@ -1,0 +1,70 @@
+.irfanimage {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+
+}
+
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(105 253 198), rgb(0, 140, 255));
+}
+
+.image {
+    padding: 0 5%;
+}
+
+main {
+    display: flex;
+    padding: 5rem;
+}
+
+.aboutme h1 {
+    text-align: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.aboutme p {
+    font-size: 1rem;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+
+}
+
+@media (max-width:900px) {
+    main {
+        padding: 5px;
+    }
+
+    .irfanimage {
+        max-width: 180px;
+    }
+
+    .aboutme_irfan {
+        width: 80%;
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:450px) {
+    .irfanimage {
+        max-width: 130px;
+    }
+
+    .aboutme_irfan {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:375px) {
+    main {
+        padding: 20px;
+    }
+
+    .aboutme_irfan {
+        font-size: 1.2rem;
+        width: 9rem;
+    }
+}
